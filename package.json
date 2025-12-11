@@ -10,6 +10,9 @@
     "cf-typegen": "wrangler types",
     "postdeploy": "wrangler d1 execute DB --file=schema.sql --remote"
   },
+  "dependencies": {
+    "hono": "^4.6.0"
+  },
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "^0.8.19",
     "@cloudflare/workers-types": "^4.20250430.0",
