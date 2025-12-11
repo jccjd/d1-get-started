@@ -17,8 +17,8 @@
 		"types": [
 			"@cloudflare/workers-types/2023-07-01"
 		],
-		"jsx": "react-jsx",            // 关键配置 1
-        "jsxImportSource": "hono"      // 关键配置 2
+
+        "jsxImportSource": "hono",      // 关键配置 2
 		/* Enable importing .json files */
 		"resolveJsonModule": true,
 
