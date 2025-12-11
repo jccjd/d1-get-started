@@ -18,7 +18,7 @@
 			"@cloudflare/workers-types/2023-07-01"
 		],
 
-        "jsxImportSource": "hono",      // 关键配置 2
+        "jsxImportSource": "hono",
 		/* Enable importing .json files */
 		"resolveJsonModule": true,
 
